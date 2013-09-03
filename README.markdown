@@ -3,6 +3,23 @@ mPass
 
 This is a Python implementation of mPass.
 
+## Installation
+
+Simply run:
+
+    pip install mpass
+
+This may require administrative privileges.
+
+## Usage
+
+On the command line, run:
+
+    mpass [DOMAIN]
+
+You will see a prompt for your master password. Once you enter that, a
+site-specific password for DOMAIN will be printed to standard output.
+
 ## License
 
 Copyright 2013 Ben Pringle
