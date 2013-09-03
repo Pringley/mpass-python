@@ -7,6 +7,8 @@ setup(
     version = "0.0.1",
     packages = find_packages(),
     scripts = ['scripts/mpass'],
+
+    url = "https://github.com/Pringley/mpass-python",
     
     author = "Ben Pringle",
     author_email = "ben.pringle@gmail.com",
