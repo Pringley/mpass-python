@@ -1,11 +1,4 @@
 #!/usr/bin/env python
 from sys import argv
-from getpass import getpass
-from mpass import mpass
-if len(argv) == 2:
-    domain = argv[1]
-else:
-    domain = raw_input('Domain: @')
-
-master_password = getpass('Master Password: ')
-print mpass(master_password, domain)
+from mpass import cli
+cli.main(argv)
