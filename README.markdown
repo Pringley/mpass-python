@@ -1,7 +1,16 @@
 mPass
 =====
 
-This is a Python implementation of mPass.
+mPass is a manageable way to maintain secure and unique passwords for the
+dozens of web services we use every day. Instead of saving all your passwords
+to your hard drive or trusting them to a third party, though, mPass uses the
+mathematical concept of a one-way function to "remember" your passwords.
+
+mPass is really more of a specification than an application. It takes a SHA-512
+HMAC of a given domain (using a "master password" as the key) and outputs the
+first ten digits in base 64.
+
+This is a Python implementation of the specification.
 
 ## Installation
 
